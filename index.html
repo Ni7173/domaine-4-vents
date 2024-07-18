@@ -3,19 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container d-flex">
             <div class="logo__container">
-
+                <img class="logo" src="/img/logo/LOGO-4-VENTS.svg" alt="logo">
             </div>
             <div class="nav__container">
                 <nav class="navbar">
-                    <li class="menu__list">
+                    <li class="menu__list list-unstyled">
                         <ul class="menu__item">Accueil</ul>
                         <ul class="menu__item">A propos</ul>
                         <ul class="menu__item">Vins</ul>
@@ -27,12 +32,23 @@
                 </nav>
             </div>
             <div class="burger__container">
-                <span class="bar"></span>
+                <div class="burger">
+                    <span class="bar"></span>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
+
+        <section id="home" class="home">
+            <div class="container">
+                <div class="video__container">
+                    <video class=" object__fit-cover absoluted" src="video/video-homepage-lucie.mp4" autoplay loop muted
+                        playsinline webkit-playsinline></video>
+                </div>
+            </div>
+        </section>
 
     </main>
 
